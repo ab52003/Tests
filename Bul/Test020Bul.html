@@ -1,0 +1,217 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0038)http://www.junior.ru/wwwexam/t_gig.htm --><HTML><HEAD><TITLE>Текст в окне браузера</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1251">
+<META content="Автор" name=Author>
+<SCRIPT language=JavaScript>
+<!-- hide
+
+
+function scroll() {
+  pos++;
+  var scroller = "";
+  if (pos == length) 
+{
+    pos = -(width + 2);
+  }
+
+  if (pos < 0) {
+    for (var i = 1; i <= Math.abs(pos); i++) 
+{
+      scroller = scroller+" ";}
+    scroller = scroller + scrtxt.substring(0, width - i + 1);
+
+
+  }
+  else {
+    scroller = scroller + scrtxt.substring(pos, width + pos);
+  }
+
+
+  window.status = scroller;
+  setTimeout("scroll()", 100);
+}
+
+// -->
+</SCRIPT>
+
+<META content="MSHTML 6.00.2800.1106" name=GENERATOR></HEAD>
+<BODY bgColor=#E4F2FC onload=scroll()>
+<SCRIPT language=JavaScript>
+
+<!--Начало сценария
+
+var res="31242"
+
+function check_me()
+<!--вместо "11111" нужно вставить последовательность правильных ответов
+{
+	var count=0
+	with(document.test)
+	
+{
+
+if (!Q1[0].checked&&!Q1[1].checked&&!Q1[2].checked&&!Q1[3].checked) 
+{count+=1};
+		if (!Q2[0].checked&&!Q2[1].checked&&!Q2[2].checked&&!Q2[3].checked) 
+{count+=1};
+		if (!Q3[0].checked&&!Q3[1].checked&&!Q3[2].checked&&!Q3[3].checked) 
+{count+=1};
+		if (!Q4[0].checked&&!Q4[1].checked&&!Q4[2].checked&&!Q4[3].checked) 
+{count+=1};
+		if (!Q5[0].checked&&!Q5[1].checked&&!Q5[2].checked&&!Q5[3].checked) 
+{count+=1};
+		if (count>0) <!-- Вычисление и проверка все ли задания выполнены -->
+{alert("Не са изпълнени всички задачи. Тествайте себе си.")
+} 
+		else answer()
+	}
+}
+
+function control(k,f1,f2,f3,f4,f5)
+ <!-- добавьте переменные f7, f8,... в зависимости от количества вопросов
+{
+	
+if (k==1&&f1.checked) return true;
+	
+if (k==2&&f2.checked) return true;
+	
+if (k==3&&f3.checked) return true;
+	
+if (k==4&&f4.checked) return true;
+	
+if (k==5&&f5.checked) return true;
+	
+<!--скопируйте эту строку и вставьте ниже необходимое количество раз( взвисимости от количества вопросов), изменив 6 на 7, 8 и т.д если добавляете количество вопросов	
+
+return false;
+}
+
+function answer()
+{
+	
+answ="";
+	with(document)
+	{
+		
+answ+=control(res.charAt(0),test.Q1[0],test.Q1[1],test.Q1[2],test.Q1[3])?"1":"0"
+		
+answ+=control(res.charAt(1),test.Q2[0],test.Q2[1],test.Q2[2],test.Q2[3])?"1":"0"
+		
+answ+=control(res.charAt(2),test.Q3[0],test.Q3[1],test.Q3[2],test.Q3[3])?"1":"0"
+		
+answ+=control(res.charAt(3),test.Q4[0],test.Q4[1],test.Q4[2],test.Q4[3])?"1":"0"
+		
+answ+=control(res.charAt(4),test.Q5[0],test.Q5[1],test.Q5[2],test.Q5[3])?"1":"0"
+		
+<!--скопируйте эту строку и вставьте ниже необходимое количество раз( взвисимости от количества вопросов), изменив 5 на 6, 7 и т.д если добавляете количество вопросов		
+<!--Анализ результатов -->		
+showResult();
+	}
+}
+
+function showResult()
+{
+	var nok=0;
+	var i,s;
+	
+for (i=0;i<answ.length;i++) {nok+=answ.charAt(i)=="1"?1:0;}
+                  
+if(nok<3) s='"СЛАБО"';
+                  
+if(nok==3) s='"СРЕДНО"';
+	
+if(nok>3 && nok<4) s='"СРЕДНО"';
+	
+if(nok==4) s='"МНОГО ДОБРО"';
+	
+if(nok>4 && nok<5) s='"МНОГО ДОБРО"';
+	
+if(nok==5) s='"ОТЛИЧНО"';
+	document.test.s1.
+value="Брой на верните отговори "+nok+". Вашата оценка "+s+". Погледнете в прозорчето до номерата на задачите. Ако отговорът е правилен, то там ще е (+). Ако сте сгрешили, там ще е (-).";
+	
+
+with(document.test)
+	{
+		if (answ.charAt(0)=="1") {T1.value=" +"} else {T1.value=" -"};
+	
+					if (answ.charAt(1)=="1") {T2.value=" +"} else {T2.value=" -"};
+	
+					if (answ.charAt(2)=="1") {T3.value=" +"} else {T3.value=" -"};
+	
+					if (answ.charAt(3)=="1") {T4.value=" +"} else {T4.value=" -"};
+	
+					if (answ.charAt(4)=="1") {T5.value=" +"} else {T5.value=" -"};
+	
+						
+					
+										}
+}
+
+function showhide(obj){
+    if(obj == 'none') return 'inline';
+    else return 'none';
+}
+
+// ]]></script>
+
+<center><b>Тест за урок 20. Как се казва - Благодаря – на руски.</b></center><br/><br/>
+<left><b>Обърнете внимание! JavaScript'овете трябва да бъдат разрешени на страницата.</b></left><br/><br/>
+&nbsp;&nbsp;&nbsp;<span style="color:#006699;text-decoration:underline;cursor:pointer;" onclick="document.getElementById('instruction').style.display = showhide(document.getElementById('instruction').style.display)">
+Инструкция</span>
+ <br/>
+<div id="instruction" style="display: none; width: 100%;">
+<ul>
+<li>Изберете един от вариантите във всеки от 5-те въпроса;</li>
+<li>Натиснете на "Покажи резултатите";</li>
+<li>Програмата няма да покаже резултатите, докато не отговорите на всичките вопроси;</li>
+<li>Погледнете в прозорчето до номерата на задачите. Ако отговорът е правилен, то там ще е (+). Ако сте сгрешили, там ще е (-).</li>
+<li>За всеки правилен отговор се начислява 1 точка;</li>
+<li>Оценки: по-малко от 3 точки - СЛАБО, 3 точки - СРЕДНО, 4 точки - МНОГО ДОБРО, 5 точки - ОТЛИЧНО;</li>
+<li>За да изтриете резултатите от теста, натиснете на "Изтрий отговорите".</li>
+</ul>
+</div>
+<form name="test"><ol>
+<LI>
+  <H4><INPUT size=1 name=T1> Кое от изредените се използва за изразяване на благодарност? </H4>
+<INPUT type=radio name=Q1> Довиждане <BR>
+<INPUT type=radio name=Q1> Здравейте <BR>
+<INPUT type=radio name=Q1> Благодаря <BR>
+<INPUT type=radio name=Q1> Извинете <BR><BR>
+
+<LI>
+  <H4><INPUT size=1 name=T2> Вариантът за отговор «Наздраве» се използва в случаи, когато благодарността е свързана с... </H4>
+<INPUT type=radio name=Q2> лични предмети <BR>
+<INPUT type=radio name=Q2> здравословно състояние <BR>
+<INPUT type=radio name=Q2> заплаха за живота <BR>
+<INPUT type=radio name=Q2> лични обстоятелства <BR><BR>
+
+<LI>
+  <H4><INPUT size=1 name=T3> “Моля” - това е... </H4>
+<INPUT type=radio name=Q3> изразяване на благодарност <BR>
+<INPUT type=radio name=Q3> отговор след изразяване на благодарност <BR>
+<INPUT type=radio name=Q3> изразяване на приветствие <BR>
+<INPUT type=radio name=Q3> изразяване на раздяла <BR><BR>
+
+<LI>
+  <H4><INPUT size=1 name=T4> Изразът «Благодаря» може да бъде усилен чрез добавяне на... </H4>
+<INPUT type=radio name=Q4> подлог <BR>
+<INPUT type=radio name=Q4> сказуемо <BR>
+<INPUT type=radio name=Q4> обстоятелствено пояснение <BR>
+<INPUT type=radio name=Q4> определение <BR><BR>
+
+<LI>
+  <H4><INPUT size=1 name=T5> В съответствие с правилата на добрия тон, следва да се използват изражения на... </H4>
+<INPUT type=radio name=Q5> нежност <BR>
+<INPUT type=radio name=Q5> благодарност <BR>
+<INPUT type=radio name=Q5> любов <BR>
+<INPUT type=radio name=Q5> ненавист <BR><BR>
+
+</LI></OL><BR>
+<CENTER>
+<P><TEXTAREA name=s1 rows=4 cols=70> </TEXTAREA> </P><INPUT onclick=check_me() 
+type=button value="Покажи резултатите">&nbsp;&nbsp;&nbsp;&nbsp; 
+<INPUT type=reset value="Изтрий отговорите"> </CENTER><BR><BR></FORM>
+<P>
+<H5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;© RuBulLang, 2014</H5>
+<P></P></FONT></BODY></HTML>
